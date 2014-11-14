@@ -19,8 +19,8 @@ activate :sprockets
 ## Site-wide settings
 ####
 
-set :full_name, "Ada Lovelace"
-set :city, "London, England"
+set :full_name, "Tod Beardsley"
+set :city, "Austin, Texas, USA"
 set :resume, nil # Set to filename of resume PDF in source directory.
 set :google_analytics_tracking_id, "UA-111111111-11"
 
@@ -31,47 +31,18 @@ set :google_analytics_tracking_id, "UA-111111111-11"
 # To hide one of these profile links, just set it to nil.
 
 # This is the id for your profile URL: https://plus.google.com/https://plus.google.com/110506932842622114536/
-set :google_plus_user_id, "110506932842622114536"
+set :google_plus_user_id, '110486794846061278031'
 # This is your shortname for your profile URL: http://facebook.com/ada.lovelace
-set :facebook_profile_name, "ada.lovelace"
-set :twitter_username, "ada"
+set :facebook_profile_name, nil
+set :twitter_username, "todb"
 # This is your shortname for your profile URL: http://linkedin.com/in/adalovelace
-set :linkedin_profile_name, "adalovelace"
-set :dribbble_username, "adalovelace"
-set :github_username, "ada"
-set :gravatar_email_address, "me@adalovelace.com"
+set :linkedin_profile_name, "todbeardsley"
+set :dribbble_username, nil
+set :github_username, "todb-r7"
+set :gravatar_email_address, "todb@packetfu.com"
 
 Time.zone = "America/Chicago"
 
-
-###
-## Blog settings
-###
-
-set :disqus_shortname, "adas-blog"
-
-activate :blog do |blog|
-  blog.prefix = "/blog"
-  blog.permalink = ":year/:month/:day/:title.html"
-  blog.sources = ":year-:month-:day-:title.html"
-  blog.taglink = "tags/:tag.html"
-  blog.layout = "article"
-  blog.summary_separator = /(READMORE)/
-  blog.summary_length = 250
-  blog.year_link = ":year.html"
-  blog.month_link = ":year/:month.html"
-  blog.day_link = ":year/:month/:day.html"
-  blog.default_extension = ".md"
-
-  blog.tag_template = "/blog/tag.html"
-  blog.calendar_template = "/blog/calendar.html"
-
-  blog.paginate = true
-  blog.per_page = 5
-  blog.page_link = "page/:num"
-end
-
-page "/blog/feed.xml", :layout => false
 
 ###
 # Deployment settings

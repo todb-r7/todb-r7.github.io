@@ -83,7 +83,4 @@ section.featured-project {
     padding-top: 0px;
   }
 
-  section.latest-from-blog, section.featured-project {
-    @include grid-column(6);
-  }
 }

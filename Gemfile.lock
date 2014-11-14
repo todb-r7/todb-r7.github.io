@@ -50,8 +50,6 @@ GEM
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
     lumberjack (1.0.4)
-    maruku (0.6.1)
-      syntax (>= 1.0.0)
     method_source (0.8.2)
     middleman (3.1.0)
       coffee-script (~> 2.2.0)
@@ -64,10 +62,6 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.1.20)
       uglifier (~> 2.1.0)
-    middleman-blog (3.2.0)
-      maruku (~> 0.6.0)
-      middleman-core (~> 3.0)
-      tzinfo (~> 0.3.0)
     middleman-core (3.1.0)
       activesupport (~> 3.2.6)
       bundler (~> 1.1)
@@ -137,7 +131,6 @@ GEM
     sprockets-sass (1.0.1)
       sprockets (~> 2.0)
       tilt (~> 1.1)
-    syntax (1.0.0)
     therubyracer (0.12.1)
       libv8 (~> 3.16.14.0)
       ref
@@ -160,7 +153,6 @@ DEPENDENCIES
   gravatar-ultimate
   guard-livereload
   middleman (~> 3.1.0)
-  middleman-blog (~> 3.2.0)
   middleman-deploy
   middleman-smusher
   middleman-syntax
