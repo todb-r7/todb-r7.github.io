@@ -20,6 +20,7 @@ activate :sprockets
 ####
 
 set :full_name, "Tod Beardsley"
+set :job_description, "Professional Hacker and Pirate Captain"
 set :city, "Austin, Texas, USA"
 set :resume, nil # Set to filename of resume PDF in source directory.
 set :google_analytics_tracking_id, "UA-111111111-11"
